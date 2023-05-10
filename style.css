@@ -1,0 +1,57 @@
+/* Set the initial styles for the canvas */
+
+/* .container { */
+/* position: relative;
+  width: 50%;
+  height: 50%;
+} */
+
+/* @media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+} */
+
+.controls {
+  padding-top: 5px;
+  padding-left: 7%;
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 0;
+}
+.webgl {
+  object-fit: cover;
+}
+
+/* canvas{
+    cursor: grab;
+    outline: none;
+    display: block;
+    margin: auto;
+}
+*/
+.loading-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: indigo;
+}
+.warning {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* add other styles for the warning div */
+}
