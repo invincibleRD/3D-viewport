@@ -18,7 +18,7 @@ This project is a web application built using the JavaScript Three.js library, a
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/invincibleRD/3D-viewport.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Access the application in your browser at: `http://localhost:3000`
